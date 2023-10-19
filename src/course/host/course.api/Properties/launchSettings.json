@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "student.api": {
+    "course.api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7052;http://localhost:5264"
+      "applicationUrl": "https://localhost:7220;http://localhost:5275"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -34,8 +34,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:9111",
-      "sslPort": 44323
+      "applicationUrl": "http://localhost:25971",
+      "sslPort": 44303
     }
   }
 }

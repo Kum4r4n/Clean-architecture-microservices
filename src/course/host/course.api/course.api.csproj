@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>d2a8d0ba-99cd-4caf-8588-8ff2458c2917</UserSecretsId>
+    <UserSecretsId>610f44d6-64cf-4b12-9afb-3cf7d2a3ac47</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..\..</DockerfileContext>
     <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
@@ -13,11 +13,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\core\student.application\student.application.csproj" />
-    <ProjectReference Include="..\..\infrastructure\student.infrastructure\student.infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
